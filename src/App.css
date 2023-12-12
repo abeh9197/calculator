@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  max-width: 200px;
+}
+
+button {
+  padding: 10px;
+}
